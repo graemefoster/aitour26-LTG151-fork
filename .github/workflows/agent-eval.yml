@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - "apr-19-refresh"
 
 permissions:
   id-token: write
