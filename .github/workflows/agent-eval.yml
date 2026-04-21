@@ -31,7 +31,7 @@ jobs:
           # Replace placeholders with values for your Foundry Project
           azure-ai-project-endpoint: "https://admin-mmn1ddb2-eastus2.services.ai.azure.com/api/projects/admin-mmn1ddb2-eastus2_project"
           deployment-name: "gpt-4.1"
-          agent-ids: "contoso-travel-eval"
+          agent-ids: "contoso-travel-eval:3"
           data-path: ${{ github.workspace }}/labs/0-data/github-action-run.json
 
 
